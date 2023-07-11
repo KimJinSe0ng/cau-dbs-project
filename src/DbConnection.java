@@ -9,8 +9,8 @@ import java.util.*;
 
 public class DbConnection {
     private static final String URL = "jdbc:mysql://localhost:3306/codingtest";
-    private static final String USER_NAME = "root";
-    private static final String PASSWORD = "11111111";
+    private static final String USER_NAME = "";
+    private static final String PASSWORD = "";
     private static final String ADDRESS = "/Users/bigbird/Downloads/"; // csv파일을 어디다 저장할지 지정하는 주소
 
     private PreparedStatement preStatement;
